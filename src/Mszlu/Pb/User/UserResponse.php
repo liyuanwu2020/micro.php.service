@@ -9,7 +9,7 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Generated from protobuf message <code>Mszlu.Pb.user.UserResponse</code>
+ * Generated from protobuf message <code>user.UserResponse</code>
  */
 class UserResponse extends \Google\Protobuf\Internal\Message
 {
@@ -38,7 +38,7 @@ class UserResponse extends \Google\Protobuf\Internal\Message
      * }
      */
     public function __construct($data = NULL) {
-        \GPBMetadata\Pb\User::initOnce();
+        \Mszlu\Pb\GPBMetadata\User::initOnce();
         parent::__construct($data);
     }
 

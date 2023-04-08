@@ -25,7 +25,7 @@ class UserServiceClient extends \Grpc\BaseStub {
      */
     public function Search(\Mszlu\Pb\User\UserRequest $argument,
       $metadata = [], $options = []) {
-        return $this->_simpleRequest('/Mszlu.Pb.user.UserService/Search',
+        return $this->_simpleRequest('/user.UserService/Search',
         $argument,
         ['\Mszlu\Pb\User\UserResponse', 'decode'],
         $metadata, $options);
